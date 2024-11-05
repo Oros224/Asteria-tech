@@ -3,7 +3,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Asteria Hosting</title>
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="./css/styles.css" />
         <link rel="shortcut icon" href="./assets/coffee_masters_logo.png" type="image/x-icon" />
         <meta name="author" content="Goitseone Themba" />
         <meta name="description" content="A  website for advertising a hosting business written by Goitseone Themba" />
@@ -11,49 +11,134 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-            rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet"
         />
     </head>
     <body>
+        <header class="hero-section wrapper">
         <nav class="nav-bar wrapper">
-            <img src="" alt="logo" class="nav-logo">
+            <img src="./images/Logo.svg" alt="logo" class="nav-logo">
             <ul class="nav-items">
-                <li class="nav-item"><a href="" class="nav-link">
-
-                </a></li>
-                <li class="nav-item"><a href="" class="nav-link">
-
-                </a></li>
-                <li class="nav-item"><a href="" class="nav-link">
-
-                </a></li>
-                <li class="nav-item"><a href="" class="nav-link">
-
-                </a></li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        Products/Services
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        Contact Us
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        Staff
+                    </a>
+                </li>
             </ul>
-            <ul class="social-links"></ul>
-                <li><a href="" class="social-link"></a></li>
-                <li><a href="" class="social-link"></a></li>
+            <ul class="social-links">
+                <li>
+                    <a href="" class="social-link">
+                        <img src="./assets/github.svg" >
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="social-link">
+                        <img src="./assets/X.svg" >
+                    </a>
+                </li>
+            </ul>
             </ul>
         </nav>
-        <header class="hero-section wrapper">
             <div class="hero">
-                <h2 class="hero-text"></h2>
-                <img src="" alt="logo of asteria tech" class="hero-logo">
+                <h1 class="hero-title">Power Your Vision with Reliable VPS Solutions</h1>
+                <!-- <p class="hero-subtitle">
+                    At Asteria Hosting, we deliver high-performance virtual private servers designed to meet your business needs. 
+                    From startups to enterprises, our secure and scalable solutions help you focus on growth while we handle the infrastructure.
+                </p> -->
             </div>
             <div class="welcome-message">
-                <h2 class="message-title"></h2>
-                <p class="message-body"></p>
+                <h2 class="message-title">
+                    Welcome to Asteria Hosting!
+                </h2>
+                <p class="message-body">
+                Empowering your business with cutting-edge Virtual Private Server solutions. 
+                From small startups to large enterprises, Asteria Hosting provides 
+                the infrastructure you need to power your websites, applications, and digital experiences. 
+                Discover reliable, scalable, and secure VPS hosting with Asteria Hosting.
+                </p>
             </div>
         </header>
-        <section class="homepage-products"></section>
-        <section class="about-section">
-            <h2 class="about-title"></h2>
-            <p class="about-body"></p>
+        <section class="products-section wrapper">
+            <h2 class="products-title">Our Products</h2>
+            <div class="products">
+                <div class="product card">
+                    <h3 class="product-name">Starter VPS</h3>
+                    <p class="product-description">
+                        Ideal for small websites and personal projects. Affordable, reliable, and easy to manage.
+                    </p>
+                </div>
+                <div class="product card">
+                    <h3 class="product-name">Business VPS</h3>
+                    <p class="product-description">
+                        Robust hosting for small to medium-sized businesses. High uptime and superior performance.
+                    </p>
+                </div>
+                <div class="product card">
+                    <h3 class="product-name">Enterprise VPS</h3>
+                    <p class="product-description">
+                        Enterprise-grade performance with scalable resources and advanced security features.
+                    </p>
+                </div>
+                <div class="product">
+                    <h3 class="product-name">Custom Solutions</h3>
+                    <p class="product-description">
+                        Tailored VPS hosting to meet unique needs, including load balancing, security, and custom configurations.
+                    </p>
+                </div>
+            </div>
         </section>
-        <section class="testimonials">
-            
+        <section class="about-section">
+            <div class="card">
+                <h2 class="about-title">
+                    About Asteria Hosting
+                </h2>
+                <p class="about-body">
+                    Founded with a vision to make high-quality hosting accessible to all, Asteria Hosting is a leading provider of Virtual Private Server (VPS) solutions. 
+                    Our team is passionate about empowering businesses to succeed online by delivering hosting that’s fast, secure, and scalable. 
+                    Whether you’re building a personal website, launching an e-commerce platform, or expanding your enterprise’s digital footprint, we have the right solution for you.
+                    At Asteria Hosting, customer satisfaction is our top priority, and we pride ourselves on our exceptional support, high uptime, and continuous innovation in hosting technology. 
+                    Trust us to be the backbone of your digital success.
+                </p>
+            </div>
+        </section>
+        <section class="testimonials-section wrapper">
+            <h2 class="testimonials-title">What Our Clients Say</h2>
+            <div class="testimonials">
+                <div class="testimonial card">
+                    <p class="testimonial-text">
+                        "Asteria Hosting has been a game-changer for our online business. Their VPS solutions are both reliable and affordable."
+                    </p>
+                    <p class="testimonial-author">- Jane Doe, E-commerce Owner</p>
+                </div>
+                <div class="testimonial card">
+                    <p class="testimonial-text">
+                        "The customer support at Asteria Hosting is fantastic. They helped us scale seamlessly as our traffic grew."
+                    </p>
+                    <p class="testimonial-author">- John Smith, CEO of TechWave</p>
+                </div>
+                <div class="testimonial card">
+                    <p class="testimonial-text">
+                        "Asteria Hosting’s custom solutions perfectly match our needs. We couldn't ask for a better partner."
+                    </p>
+                    <p class="testimonial-author">- Sarah Lee, IT Manager</p>
+                </div>
+            </div>
         </section>
     </body>
 </html>
