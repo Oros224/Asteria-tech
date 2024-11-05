@@ -7,12 +7,19 @@
   --highlight-color: #FFCB05;    /* Bright Yellow */
 }
 
+.nunito-<uniquifier> {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
 body {
     margin: 0px;
     background-color: var(--background-color);
     width: 100%;
     color: var(--text-color);
-    font-weight: 400;
+    font-family: Nunito;
 }
 
 .wrapper {
@@ -48,6 +55,7 @@ ul {
 .nav-item {
     color: var(--accent-color);
     font-size: large;
+    margin-inline: 10px;
 } 
 
 .nav-link {
@@ -188,7 +196,13 @@ ul {
 }
 
 .testimonial {
-    
+    background-color: var(--background-color);
+    border: 1px solid var(--secondary-color);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    margin-inline: auto;
 }
 
 .testimonial-text {
@@ -201,3 +215,383 @@ ul {
     margin-top: 10px;
     color: var(--highlight-color);
 }
+
+
+/* Intro Section */
+.intro-section {
+    text-align: center;
+    padding: 20px 0;
+    color: var(--text-color);
+}
+
+.intro-title {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.intro-description {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: var(--secondary-color);
+}
+
+/* Products Table */
+.products-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.products-table th, .products-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--secondary-color);
+    color: var(--text-color);
+}
+
+.products-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.products-table td ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.products-table td ul li {
+    margin-bottom: 4px;
+}
+
+.products-table tr:nth-child(even) {
+    background-color: var(--background-color);
+}
+
+/* Contact Intro */
+.contact-intro {
+    text-align: center;
+    padding: 20px 0;
+    color: var(--text-color);
+}
+
+.contact-title {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.contact-description {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: var(--secondary-color);
+}
+
+/* Contact Form */
+.contact-form-section {
+    margin-top: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact-form .submit-button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form .submit-button:hover {
+    background-color: var(--primary-color);
+}
+
+/* Additional Contact Information */
+.contact-info-section {
+    text-align: center;
+    margin-top: 30px;
+    color: var(--text-color);
+}
+
+.info-title {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.info-item {
+    font-size: 1.1rem;
+    margin: 8px 0;
+}
+
+/* Staff Page Intro */
+.team-intro {
+    text-align: center;
+    padding: 20px 0;
+    color: var(--text-color);
+}
+
+.team-title {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.team-description {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: var(--secondary-color);
+}
+
+/* Profile Cards */
+.team-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* Card Container */
+.card-container {
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+/* Card Styling */
+.card {
+    background: no-repeat url("./assets/wave.svg");
+    padding: 20px;
+    border-radius: 16px;
+}
+
+/* Profile Picture */
+.image-container {
+    margin-top: 16px;
+}
+
+.profile-pic {
+    width: 128px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Name and Title */
+.handle {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin: 8px 0 0 0;
+}
+
+.tag {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    margin-top: 4px;
+}
+
+/* Social Links */
+.socials {
+    margin-top: 16px;
+}
+
+.icon-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 0;
+}
+
+.icon-list a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+/* About Section in Card */
+.about {
+    font-size: 0.95rem;
+    color: var(--text-color);
+    margin-top: 16px;
+    padding: 0 10px;
+    line-height: 1.5;
+}
+
+/* Buttons */
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-follow,
+.btn-message {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: Nunito, sans-serif;
+}
+
+/* Follow Button */
+.btn-follow {
+    background-color: var(--highlight-color);
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-follow:hover {
+    background-color: #e0a700;
+}
+
+/* Message Button */
+.btn-message {
+    background-color: #fff;
+    color: var(--text-color);
+    border: 1px solid var(--secondary-color);
+    transition: background-color 0.3s;
+}
+
+.btn-message:hover {
+    background-color: var(--background-color);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding-top: 48px;
+    margin-top: 60px;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 32px;
+    padding-bottom: 48px;
+  }
+  
+  .company-info {
+    max-width: 300px;
+  }
+  
+  .footer-logo {
+    width: 120px;
+    margin-bottom: 16px;
+  }
+  
+  .footer-description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .footer-social .social-link {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .footer-social .social-link:hover {
+    opacity: 1;
+  }
+  
+  .footer-title {
+    color: var(--highlight-color);
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+  }
+  
+  .footer-links,
+  .footer-contact {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li,
+  .footer-contact li {
+    margin-bottom: 12px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .footer-links a:hover {
+    opacity: 1;
+  }
+  
+  .footer-bottom {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 16px 0;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    .company-info {
+      grid-column: 1 / -1;
+      max-width: 100%;
+      text-align: center;
+    }
+    
+    .footer-social {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-content {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    
+    .footer-section {
+      margin-bottom: 32px;
+    }
+  }

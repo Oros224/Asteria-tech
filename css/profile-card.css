@@ -1,0 +1,99 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body    {
+    margin: 0;
+}
+
+.card-container    {
+   
+}
+
+.card   {
+    max-width: 360px;
+    text-align: center;
+    background-color: #fff;
+    background: no-repeat url("../assets/waves2.svg");
+    padding: 28px;
+    border-radius: 28px;
+    box-shadow: 0 1px 25px #dedede, 0 1px 25px #222;
+}
+
+.image-container    {
+}
+
+.profile-pic    {
+    width: 128px;
+    border-radius: 64px;
+}
+.handle {
+    font-family: Nunito; 
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.name   {
+    margin: 0;
+}
+
+.tag  {
+    margin: 0;
+}
+.socials    {
+
+}
+
+.icon-list  {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.about  {
+    font-family: Nunito;
+    font-weight: 500;
+}
+
+.button-container   {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-follow     {
+    font-family: Nunito;
+    width: 100px;
+    color: #fff;
+    background-color: var(--accent-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 28px;
+  }
+
+.btn-message    {
+    width: 100px;
+    color: #222;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px #dedede;
+    border-radius: 28px;
+}
+
