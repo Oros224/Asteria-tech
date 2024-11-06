@@ -47,6 +47,7 @@ ul {
 .nav-items {
     display: flex;
     justify-content: space-between;
+    font-weight: 700;
     margin-inline: 0px;
     padding: 2px;
     max-width: 60%;
@@ -69,6 +70,7 @@ ul {
 } 
 
 .nav-link {
+    color: inherit;
     text-decoration: none;
 }
 
@@ -215,7 +217,7 @@ ul {
     padding: 16px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 60%;
+    width: 60%;
     margin-inline: auto;
 }
 
