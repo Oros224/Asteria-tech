@@ -52,10 +52,20 @@ ul {
     max-width: 60%;
 }
 
+.nav-item:hover {
+    color: var(--highlight-color);
+    background-color: var(--accent-color);
+}
+
 .nav-item {
-    color: var(--accent-color);
+    color: var(--text-color);
     font-size: large;
     margin-inline: 10px;
+    border-radius: 28px;
+    padding-inline:16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
 } 
 
 .nav-link {
