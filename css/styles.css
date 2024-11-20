@@ -257,18 +257,22 @@ ul {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
+    font-size: 1rem;
+    text-align: left;
 }
 
-.products-table th, .products-table td {
+.products-table th, 
+.products-table td {
     padding: 12px;
-    text-align: left;
     border-bottom: 1px solid var(--secondary-color);
     color: var(--text-color);
+    vertical-align: top;
 }
 
 .products-table th {
     background-color: var(--primary-color);
     color: white;
+    text-align: center;
 }
 
 .products-table td ul {
@@ -282,6 +286,23 @@ ul {
 
 .products-table tr:nth-child(even) {
     background-color: var(--background-color);
+}
+
+/* Product Name Cell with Images */
+.product-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.products-table h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    text-align: center;
 }
 
 /* Contact Intro */
