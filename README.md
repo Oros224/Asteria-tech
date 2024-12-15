@@ -1,5 +1,5 @@
-# Asteria Hosting - VPS Hosting Website 
-[https://asteriahosting.netlify.app/](https://asteriatech.netlify.app/)
+# Asteria Tech - Smart Home System 
+[https://asteriatech.netlify.app/](https://asteriatech.netlify.app/)
 
 **Asteria Hosting** is a fictional VPS hosting company website designed as part of an assignment. The website showcases various VPS hosting plans, provides information about the company’s team, and includes a contact form for inquiries. The design is inspired by popular hosting platforms, with a modern, professional aesthetic.
 
