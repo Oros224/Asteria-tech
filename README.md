@@ -1,38 +1,49 @@
-# Asteria Tech - Smart Home System 
+# Asteria Tech - Smart Home System  
 [https://asteriatech.netlify.app/](https://asteriatech.netlify.app/)
 
-**Asteria Tech** is a fictional VPS hosting company website designed as part of an assignment. The website showcases various VPS hosting plans, provides information about the company’s team, and includes a contact form for inquiries. The design is inspired by popular hosting platforms, with a modern, professional aesthetic.
+**Asteria Tech** is a smart home solutions company dedicated to transforming homes with secure, efficient, and sustainable technology. This website showcases the company’s services, smart home packages, and provides information about the team. Designed to offer a seamless experience, the website highlights Asteria Tech’s commitment to innovation and customer satisfaction.
 
 ---
 
 ## Features
 
-- **Homepage**: Brief company introduction, welcoming message, and a hero section.
-- **Products Page**: Lists VPS hosting plans with descriptions, target audience, and pricing.
-- **Contact Us Page**: Includes a contact form with JavaScript validation.
-- **Staff Page**: Displays team members with profile cards, bios, and social media links.
-- **Responsive Design**: Optimized for desktop and mobile devices.
-- **Consistent Styling**: Unified color scheme and font choices for a cohesive experience.
+- **Homepage**: Overview of Asteria Tech, highlighting its mission and smart home packages.
+- **Products Page**: Detailed information about the Basic, Middle, and Premium smart home packages, including features and pricing.
+- **Contact Us Page**: Contact form for inquiries with JavaScript validation, and company contact details.
+- **Staff Page**: Profiles of team members with bios, social media links, and photos.
+- **Responsive Design**: Fully optimized for desktop and mobile devices.
+- **Consistent Branding**: Unified color scheme and typography for a professional and engaging user experience.
 
 ---
 
 ## Technologies Used
 
-- **HTML**: For structuring the content of the pages.
-- **CSS**: For styling and layout, using custom properties for a consistent color scheme.
-- **JavaScript**: For contact form validation.
-- **Netlify**
+- **HTML**: For structuring the web pages.
+- **CSS**: For styling and layout, using responsive design principles.
+- **JavaScript**: For form validation and interactive elements.
+- **Netlify**: For deployment and hosting.
 
 ---
 
 ## Getting Started
 
 ### Prerequisites
-To run this project locally, you only need a web browser. No server setup is required for static files.
+To run this project locally, all you need is a modern web browser.
 
 ### Setup
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Oros224/AsteriaHosting.git
-   cd AsteriaHosting
-2. Open the website: Open ` index.html ` in your web browser to view the site.
+   git clone https://github.com/Oros224/AsteriaTech.git
+   cd AsteriaTech
+   ```
+2. **Open the Website**:  
+   Open `index.html` in your web browser to view the site.
+
+---
+
+## Acknowledgments
+
+This website was developed as part of a project to showcase Asteria Tech’s innovative solutions in smart home technology. It was inspired by modern web design principles and aims to deliver an intuitive and informative experience for users.
+
+---
+
